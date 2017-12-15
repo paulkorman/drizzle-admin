@@ -16,6 +16,7 @@ import PluginSetup from './PluginSetup';
 import SmsInfo from './SmsInfo';
 import Statement from './Statement';
 import StoreCreditList from './StoreCreditList';
+import Invoice from './Invoice';
 
 import styles from '../theme/pages/Index';
 
@@ -40,6 +41,7 @@ class Index extends React.Component {
                         <Route exact path="/sms-info" component={SmsInfo}></Route>
                         <Route exact path="/statement" component={Statement}></Route>
                         <Route exact path="/store-credit-list" component={StoreCreditList}></Route>
+                        <Route exact path="/invoice" component={Invoice}></Route>
                     </div>
                 </HashRouter>
             </div>

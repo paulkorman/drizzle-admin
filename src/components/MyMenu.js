@@ -43,6 +43,7 @@ class MyMenu extends React.Component {
                     <li><a href="#dashboard">dashboard</a></li>
                     <li><a href="#redeem">redeem</a></li>
                     <li><a href="#statement">statement</a></li>
+                    <li><a href="#invoice">invoice</a></li>
                     <li><a href="#store-credit-list">member store <br/>credit list</a></li>
                     <li><a href="#profile">profile</a></li>
                 </ul>
